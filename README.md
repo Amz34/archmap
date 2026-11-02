@@ -111,3 +111,7 @@ make test
 ## License
 
 MIT License. Copyright (c) 2026 Amz34.
+
+---
+
+Part of [my always-on agent stack](https://github.com/Amz34) · [Awesome Agent Infrastructure](https://github.com/Amz34/awesome-agent-infrastructure) (135 live-checked building blocks).
