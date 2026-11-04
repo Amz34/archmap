@@ -24,4 +24,5 @@ wheels/
 venv/
 *.html
 *.svg
+!assets/*.svg
 .pytest_cache/

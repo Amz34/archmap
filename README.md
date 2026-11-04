@@ -1,5 +1,27 @@
-# archmap
+<div align="center">
 
+<p align="center">
+  <img src="assets/logo.svg" alt="archmap logo" width="650">
+</p>
+
+# 🗺️ archmap
+
+**Zero-Dependency Codebase Architecture Visualizer & AST Graph Generator for AI Agents**
+
+[![Python: 3.10+](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
+[![Mermaid](https://img.shields.io/badge/Mermaid-FF3670?style=for-the-badge&logo=mermaid&logoColor=white)](https://mermaid.js.org)
+[![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white)](https://cloud.oracle.com)
+[![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-F38020?style=for-the-badge&logo=cloudflarepages&logoColor=white)](https://pages.cloudflare.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen?style=for-the-badge)](LICENSE)
+
+<br>
+
+**[⚡ Quick Start](#quickstart)** · **[🔍 Why archmap?](#why-archmap)** · **[🏗️ Features](#features)** · **[📊 CLI Usage](#cli-usage)**
+
+</div>
+
+---
 Lightweight codebase architecture visualizer and diagram generator with zero external dependencies.
 
 ![Architecture Overview](assets/archmap-overview.jpg)

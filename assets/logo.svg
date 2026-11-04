@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="archBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140f28" />
+      <stop offset="50%" stop-color="#1b1435" />
+      <stop offset="100%" stop-color="#0b0717" />
+    </linearGradient>
+    <linearGradient id="archAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f43f5e" />
+      <stop offset="50%" stop-color="#fb7185" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+    <filter id="archGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <rect width="800" height="240" rx="16" fill="url(#archBg)" stroke="#2e1065" stroke-width="2"/>
+  
+  <path d="M 0 60 L 800 60 M 0 120 L 800 120 M 0 180 L 800 180" stroke="#2e1065" stroke-width="1" stroke-opacity="0.3"/>
+  <path d="M 200 0 L 200 240 M 400 0 L 400 240 M 600 0 L 600 240" stroke="#2e1065" stroke-width="1" stroke-opacity="0.3"/>
+
+  <!-- Logo Mark (Interactive AST Topology Graph) -->
+  <g transform="translate(60, 45)">
+    <!-- Interconnected nodes -->
+    <path d="M 40 40 L 75 75 L 110 40 M 75 75 L 75 120 M 75 75 L 115 105 M 75 75 L 35 105" stroke="url(#archAccent)" stroke-width="3" filter="url(#archGlow)"/>
+    <path d="M 40 40 L 75 75 L 110 40 M 75 75 L 75 120 M 75 75 L 115 105 M 75 75 L 35 105" stroke="#fb7185" stroke-width="2"/>
+    
+    <circle cx="75" cy="75" r="14" fill="#fb7185"/>
+    <circle cx="40" cy="40" r="10" fill="#38bdf8"/>
+    <circle cx="110" cy="40" r="10" fill="#38bdf8"/>
+    <circle cx="35" cy="105" r="9" fill="#a855f7"/>
+    <circle cx="115" cy="105" r="9" fill="#a855f7"/>
+    <circle cx="75" cy="120" r="9" fill="#f43f5e"/>
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(240, 75)">
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="#ffffff" letter-spacing="-0.5">
+      arch<tspan fill="url(#archAccent)">map</tspan>
+    </text>
+    
+    <text y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#fb7185" letter-spacing="1.5">
+      CODEBASE AST ARCHITECTURE VISUALIZER
+    </text>
+
+    <text y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#cbd5e1">
+      Zero External Dependencies • Cyclic Coupling Detector • Interactive SVG/Mermaid
+    </text>
+
+    <!-- Badges -->
+    <g transform="translate(0, 96)">
+      <rect width="84" height="22" rx="4" fill="#2e1065"/>
+      <text x="42" y="15" font-family="monospace" font-size="11" font-weight="bold" fill="#38bdf8" text-anchor="middle">AST-ENGINE</text>
+      
+      <rect x="94" width="84" height="22" rx="4" fill="#2e1065"/>
+      <text x="136" y="15" font-family="monospace" font-size="11" font-weight="bold" fill="#f472b6" text-anchor="middle">MERMAID/SVG</text>
+      
+      <rect x="188" width="92" height="22" rx="4" fill="#2e1065"/>
+      <text x="234" y="15" font-family="monospace" font-size="11" font-weight="bold" fill="#34d399" text-anchor="middle">LOCAL-FIRST</text>
+    </g>
+  </g>
+</svg>
