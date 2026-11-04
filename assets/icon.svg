@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="128" height="128">
+  <defs>
+    <linearGradient id="archSquircleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#be123c" />
+      <stop offset="50%" stop-color="#e11d48" />
+      <stop offset="100%" stop-color="#f43f5e" />
+    </linearGradient>
+    <filter id="archShadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#9f1239" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Squircle App Icon Tile -->
+  <rect x="16" y="16" width="224" height="224" rx="52" fill="url(#archSquircleGrad)" filter="url(#archShadow)"/>
+  <rect x="18" y="18" width="220" height="220" rx="50" fill="none" stroke="#ffffff" stroke-width="2" stroke-opacity="0.25"/>
+
+  <!-- AST Topology Map Symbol -->
+  <g transform="translate(48, 48)">
+    <circle cx="80" cy="80" r="54" fill="#0f172a" stroke="#fda4af" stroke-width="4"/>
+    <!-- Interconnected AST Nodes -->
+    <line x1="50" y1="50" x2="80" y2="80" stroke="#f43f5e" stroke-width="4"/>
+    <line x1="110" y1="50" x2="80" y2="80" stroke="#f43f5e" stroke-width="4"/>
+    <line x1="80" y1="80" x2="80" y2="120" stroke="#f43f5e" stroke-width="4"/>
+    <line x1="80" y1="80" x2="120" y2="105" stroke="#f43f5e" stroke-width="4"/>
+    
+    <circle cx="80" cy="80" r="16" fill="#f43f5e" stroke="#ffffff" stroke-width="3"/>
+    <circle cx="50" cy="50" r="10" fill="#38bdf8" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="110" cy="50" r="10" fill="#38bdf8" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="80" cy="120" r="9" fill="#a855f7" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="120" cy="105" r="9" fill="#34d399" stroke="#ffffff" stroke-width="2"/>
+  </g>
+</svg>

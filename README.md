@@ -1,7 +1,7 @@
 <div align="center">
 
 <p align="center">
-  <img src="assets/logo.svg" alt="archmap logo" width="650">
+  <img src="assets/icon.svg" width="128" height="128" alt="archmap icon: AST architecture visualizer on ruby squircle tile">
 </p>
 
 # 🗺️ archmap
